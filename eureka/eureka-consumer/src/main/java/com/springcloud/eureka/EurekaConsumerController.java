@@ -20,6 +20,7 @@ public class EurekaConsumerController {
 
     @GetMapping("/consumer")
     public String hello() {
+
         // 选择一个服务消费
         ServiceInstance serviceInstance = balancerClient.choose("eureka-client");
         if (serviceInstance == null) {
@@ -27,7 +28,7 @@ public class EurekaConsumerController {
         }
         // 服务地址
         String instanceAddr = String.format("http://%s:%s/client", serviceInstance.getHost(), serviceInstance.getPort());
-        log.info("This is host is {} port is {}", serviceInstance.getHost(), serviceInstance.getPort());
+//        log.info("This is host is {} port is {}", serviceInstance.getHost(), serviceInstance.getPort());
         // 发起请求
         String response = restTemplate.getForObject(instanceAddr, String.class);
         return "Response is " + response;
