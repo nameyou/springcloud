@@ -1,0 +1,19 @@
+{
+  "name": "config-consumer",
+  "profiles": [
+    "dev"
+  ],
+  "label": null,
+  "version": "bc45de05f40de03d57b9eb7dfd4e07a9fd117ebb",
+  "state": null,
+  "propertySources": [
+    {
+      "name": "https://github.com/nameyou/spriingconfig-11.git/config-consumer-dev.yml",
+      "source": {
+        "info.profile": "dev",
+        "name": "Saul",
+        "word": "good config  dev"
+      }
+    }
+  ]
+}

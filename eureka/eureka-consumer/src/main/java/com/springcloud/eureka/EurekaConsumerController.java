@@ -20,7 +20,6 @@ public class EurekaConsumerController {
 
     @GetMapping("/consumer")
     public String hello() {
-
         // 选择一个服务消费
         ServiceInstance serviceInstance = balancerClient.choose("eureka-client");
         if (serviceInstance == null) {

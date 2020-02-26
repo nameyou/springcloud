@@ -1,12 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fccd727-a7f9-43c5-a7cb-1db73fe7b68b" name="Default Changelist" comment="" />
+    <list default="true" id="9fccd727-a7f9-43c5-a7cb-1db73fe7b68b" name="Default Changelist" comment="修改文件">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/springcloud.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config-client/src/main/java/com/springcloud/config/ConfigClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config-client/src/main/java/com/springcloud/config/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config-client/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config-server/src/main/java/com/springcloud/config/ConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/feign-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/feign-consumer/src/main/java/com/springcloud/feign/FeginApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/feign-consumer/src/main/java/com/springcloud/feign/FeignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/feign-consumer/src/main/java/com/springcloud/feign/FeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/feign-consumer/src/main/java/com/springcloud/feign/HstrixService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/feign-consumer/src/main/java/com/springcloud/feign/HystrixController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/feign-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/hystrix-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/hystrix-client/src/main/java/com/springcloud/hystrix/FallbackHystrixController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/hystrix-client/src/main/java/com/springcloud/hystrix/HystrixClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/hystrix-client/src/main/java/com/springcloud/hystrix/HystrixController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/hystrix-client/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/hystrix-fallback/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/hystrix-fallback/src/main/java/com/springcloud/hystrix/Fallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/hystrix-fallback/src/main/java/com/springcloud/hystrix/HystrixApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/hystrix-fallback/src/main/java/com/springcloud/hystrix/HystrixController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/hystrix-fallback/src/main/java/com/springcloud/hystrix/HystrixService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/hystrix-fallback/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/ribbon-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/ribbon-consumer/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/ribbon-consumer/src/main/java/com/springcloud/ribbon/CustomerRibbonRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/ribbon-consumer/src/main/java/com/springcloud/ribbon/RibbonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/ribbon-consumer/src/main/java/com/springcloud/ribbon/RibbonConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/ribbon-consumer/src/main/java/com/springcloud/ribbon/RibbonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/ribbon-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbine/hystrix-dashboard/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbine/hystrix-dashboard/src/main/java/com/springcloud/dashboard/DashboardApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbine/hystrix-dashboard/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbine/hystrix-turbine/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbine/hystrix-turbine/src/main/java/com/springcloud/turbine/TurbineApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbine/hystrix-turbine/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/euraka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/euraka-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/eureka-client/src/main/java/com/springlcoud/demo/EurekaClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/eureka-client/src/main/java/com/springlcoud/demo/EurekaClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/eureka-client/src/main/java/com/springlcoud/demo/EurekaClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/eureka-client/src/main/java/com/springlcoud/demo/EurekaClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/eureka-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/eureka-client/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/eureka-client/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/eureka-client/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/eureka-client/target/classes/com/springlcoud/demo/EurekaClientApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/eureka-client/target/classes/com/springlcoud/demo/EurekaClientApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/eureka-client/target/classes/com/springlcoud/demo/EurekaClientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/eureka-client/target/classes/com/springlcoud/demo/EurekaClientController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/eureka-consumer/src/main/java/com/springcloud/eureka/EurekaConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/eureka-consumer/src/main/java/com/springcloud/eureka/EurekaConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/eureka-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/eureka-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/eureka-consumer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/eureka-consumer/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/eureka-consumer/target/classes/com/springcloud/eureka/EurekaConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/eureka-consumer/target/classes/com/springcloud/eureka/EurekaConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <list id="4169cc46-e61f-4d0f-a164-7e4c69c06a09" name="springcloud学习" comment="springcloud学习&#10;技术文档参考&#10;&#10;(cherry picked from commit 506f48d90de59e022824b06ddf060e1bb18e81ed)">
+      <changelist_data name="lby" email="lbyu@imooc.com" date="1579422527000" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka/euraka-server/target/" />
     <ignored path="$PROJECT_DIR$/eureka/eureka-client/target/" />
     <ignored path="$PROJECT_DIR$/eureka/eureka-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/ribbon/springcloud-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/feign/feign-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/ribbon/ribbon-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/hystrix/hystrix-fallback/target/" />
+    <ignored path="$PROJECT_DIR$/hystrixhystrix-client/target/" />
+    <ignored path="$PROJECT_DIR$/hystrix/hystrix-client/target/" />
+    <ignored path="$PROJECT_DIR$/turbine/hystrix-turbine/target/" />
+    <ignored path="$PROJECT_DIR$/turbine/hystrix-dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/config/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <ignored path="$PROJECT_DIR$/config/config-client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,71 +91,88 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka/eureka-client/src/main/java/com/springlcoud/demo/EurekaClientController.java">
+        <entry file="file://$PROJECT_DIR$/config/config-client/src/main/java/com/springcloud/config/ConfigClientApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="140">
+              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka/eureka-client/src/main/java/com/springlcoud/demo/EurekaClientApplication.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/EnvironmentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="40">
+              <caret line="16" column="59" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/config-server/src/main/java/com/springcloud/config/ConfigApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka/eureka-consumer/src/main/java/com/springcloud/eureka/EurekaConsumerApplication.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/config/server/EnableConfigServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+            <state relative-caret-position="280">
+              <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/config/server/config/ConfigServerConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
+                <element signature="e#957#958#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/config/server/config/ConfigServerAutoConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eureka/eureka-consumer/src/main/java/com/springcloud/eureka/EurekaConsumerController.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/config/server/config/EnvironmentRepositoryConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="31" column="80" lean-forward="true" selection-start-line="31" selection-start-column="80" selection-end-line="31" selection-end-column="80" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="218">
+              <caret line="105" column="61" selection-start-line="105" selection-start-column="55" selection-end-line="105" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka/eureka-consumer/src/main/resources/application.properties">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/config/server/config/ConfigServerProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka/eureka-client/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+            <state relative-caret-position="138">
+              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -93,6 +182,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -100,6 +190,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>AutoServiceRegistrationProperties</find>
+      <find>LoadBalanced</find>
+      <find>hystrixCommandAnnotationPointcut</find>
+      <find>`</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -108,20 +201,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eureka/euraka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka/euraka-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/eureka/eureka-client/src/main/java/com/springlcoud/demo/EurekaClientApplication.java" />
-        <option value="$PROJECT_DIR$/eureka/eureka-client/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka/euraka-server/src/main/java/com/springcloud/eureka/eurakaserver/EurakaServerApplication.java" />
-        <option value="$PROJECT_DIR$/eureka/eureka-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka/eureka-consumer/src/main/java/com/springcloud/eureka/EurekaConsumerApplication.java" />
-        <option value="$PROJECT_DIR$/eureka/eureka-consumer/src/main/java/com/springcloud/eureka/Config.java" />
-        <option value="$PROJECT_DIR$/eureka/eureka-client/src/main/java/com/springlcoud/demo/DemoController.java" />
-        <option value="$PROJECT_DIR$/eureka/eureka-client/src/main/java/com/springlcoud/demo/EurekaClientController.java" />
+        <option value="$PROJECT_DIR$/ribbon/ribbon-consumer/src/main/java/com/springcloud/ribbon/RibbonController.java" />
         <option value="$PROJECT_DIR$/eureka/eureka-client/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/eureka/eureka-consumer/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/eureka/eureka-consumer/src/main/java/com/springcloud/eureka/EurekaConsumerController.java" />
+        <option value="$PROJECT_DIR$/ribbon/ribbon-consumer/src/main/java/com/springcloud/ribbon/Config.java" />
+        <option value="$PROJECT_DIR$/eureka/eureka-client/src/main/java/com/springlcoud/demo/EurekaClientApplication.java" />
+        <option value="$PROJECT_DIR$/ribbon/ribbon-consumer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/ribbon/ribbon-consumer/src/main/java/com/springcloud/ribbon/dd.java" />
+        <option value="$PROJECT_DIR$/ribbon/ribbon-consumer/src/main/java/com/springcloud/ribbon/CustomerRibbonRule.java" />
+        <option value="$PROJECT_DIR$/ribbon/ribbon-consumer/src/main/java/com/springcloud/ribbon/RibbonConfig.java" />
+        <option value="$PROJECT_DIR$/ribbon/ribbon-consumer/readme.md" />
+        <option value="$PROJECT_DIR$/feign/feign-consumer/src/main/java/com/springcloud/feign/FeignServer.java" />
+        <option value="$PROJECT_DIR$/feign/feign-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/feign/feign-consumer/src/main/java/com/springcloud/feign/FeignService.java" />
+        <option value="$PROJECT_DIR$/feign/feign-consumer/src/main/java/com/springcloud/feign/FeginApplication.java" />
+        <option value="$PROJECT_DIR$/feign/feign-consumer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/hystrix/hystrix-client/src/main/java/com/springcloud/hystrix/hystrix.java" />
+        <option value="$PROJECT_DIR$/hystrix/hystrix-client/src/main/java/com/springcloud/hystrix/HystrixClientApplication.java" />
+        <option value="$PROJECT_DIR$/hystrix/hystrix-client/src/main/java/com/springcloud/hystrix/HystrixClient.java" />
+        <option value="$PROJECT_DIR$/hystrix/hystrix-client/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/hystrix/hystrix-fallback/src/main/java/com/springcloud/hystrix/HystrixApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix/hystrix-fallback/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix/hystrix-client/src/main/java/com/springcloud/hystrix/HystrixClientService.java" />
+        <option value="$PROJECT_DIR$/hystrix/hystrix-client/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix/hystrix-fallback/src/main/java/com/springcloud/hystrix/MyService.java" />
+        <option value="$PROJECT_DIR$/feign/feign-consumer/src/main/java/com/springcloud/feign/FeignController.java" />
+        <option value="$PROJECT_DIR$/feign/feign-consumer/src/main/java/com/springcloud/feign/HystrixController.java" />
+        <option value="$PROJECT_DIR$/feign/feign-consumer/src/main/java/com/springcloud/feign/HstrixService.java" />
+        <option value="$PROJECT_DIR$/hystrix/hystrix-client/src/main/java/com/springcloud/hystrix/FallbackController.java" />
+        <option value="$PROJECT_DIR$/hystrix/hystrix-fallback/src/main/java/com/springcloud/hystrix/HystrixController.java" />
+        <option value="$PROJECT_DIR$/hystrix/hystrix-client/src/main/java/com/springcloud/hystrix/FallbackHystrixController.java" />
+        <option value="$PROJECT_DIR$/hystrix/hystrix-client/src/main/java/com/springcloud/hystrix/HystrixController.java" />
+        <option value="$PROJECT_DIR$/hystrix/hystrix-fallback/src/main/java/com/springcloud/hystrix/HystrixService.java" />
+        <option value="$PROJECT_DIR$/hystrix/hystrix-fallback/src/main/java/com/springcloud/hystrix/Fallback.java" />
+        <option value="$PROJECT_DIR$/turbine/hystrix-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/turbine/hystrix-turbine/src/main/java/com/springcloud/turbine/TurbineApplication.java" />
+        <option value="$PROJECT_DIR$/turbine/hystrix-turbine/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/hystrix/hystrix-fallback/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/turbine/hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/turbine/hystrix-dashboard/src/main/java/com/springcloud/dashboard.java" />
+        <option value="$PROJECT_DIR$/turbine/hystrix-dashboard/src/main/java/com/springcloud/dashboard/DashboardApplication.java" />
+        <option value="$PROJECT_DIR$/turbine/hystrix-dashboard/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/config/config-server/pom.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api_3.http" />
+        <option value="$PROJECT_DIR$/config/config-server/src/main/java/com/springcloud/config/ConfigApplication.java" />
+        <option value="$PROJECT_DIR$/config/config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/config/config-client/src/main/java/com/springcloud/ConfigClientApplication.java" />
+        <option value="$PROJECT_DIR$/config/config-client/src/main/java/com/springcloud/config/ConfigClientApplication.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api_4.http" />
+        <option value="$PROJECT_DIR$/config/config-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/config/config-client/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/config/config-client/src/main/java/com/springcloud/config/ConfigClientController.java" />
       </list>
     </option>
   </component>
@@ -134,161 +264,155 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springcloud-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springcloud-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
+    <option name="x" value="126" />
+    <option name="y" value="29" />
+    <option name="width" value="1928" />
+    <option name="height" value="1050" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="config-client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="config-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="config-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="config-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="config-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="springlcoud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="config-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="springlcoud" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="config-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="config-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -296,22 +420,22 @@
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -320,11 +444,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -332,13 +455,487 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Thinkpad/Codeing/Project/Lee/springmvc/springmvc_01_start" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.springcloud.feign" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lee\IdeaProjects\springcloud\hystrix" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="config-consumer/dev" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="config-confumer/dev" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="config-order/dev" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8001" />
+          <option name="urlPath" value="mywords" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8001" />
+          <option name="urlPath" value="name" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="congfig-consumer-dev.yml" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="congfig-consumer/dev" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="congfig-order/dev" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="config/consumer/dev" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8001" />
+          <option name="urlPath" value="config/consumer/dev" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8001/mywords" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="master/config-consumer-prod.properties" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="master/config-consumer-prod.json" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="master/config-consumer-prod.yml" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/config-consumer-prod.yml" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/config-consumer-dev.yml" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/config-consumer-dev.uml" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/config-consumer/dev/masters" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/config-consumer/dev/master" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/config-consumer/dev" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/config-consumer/prod" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000/config-consumer/dev" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8000" />
+          <option name="urlPath" value="/config/consumer/dev" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -356,9 +953,46 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.16071428" />
+    <option name="contentProportion" value="0.14728262" />
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaConsumerApplication">
+  <component name="RunManager" selected="HTTP Request.rest-api_4#1">
+    <configuration default="true" type="CompoundRunConfigurationType">
+      <toRun name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" />
+      <toRun name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rest-api_3#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_3.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest-api_4#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_4.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="config-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.config.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="config-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.config.ConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurakaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="euraka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.eureka.eurakaserver.EurakaServerApplication" />
@@ -366,7 +1000,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="eureka-client" />
       <extension name="coverage">
         <pattern>
@@ -375,32 +1009,70 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.springlcoud.demo.EurekaClientApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka-consumer" />
+    <configuration name="EurekaClientApplication1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springcloud.eureka.*" />
+          <option name="PATTERN" value="com.springlcoud.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.eureka.EurekaConsumerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springlcoud.demo.EurekaClientApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springlcoud.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springlcoud.demo.EurekaClientApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TurbineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hystrix-turbine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.turbine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.turbine.TurbineApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="HTTP Request.rest-api_3#1" />
+      <item itemvalue="HTTP Request.rest-api_4#1" />
       <item itemvalue="Spring Boot.EurakaServerApplication" />
+      <item itemvalue="Spring Boot.EurekaClientApplication1" />
+      <item itemvalue="Spring Boot.EurekaClientApplication2" />
       <item itemvalue="Spring Boot.EurekaClientApplication" />
-      <item itemvalue="Spring Boot.EurekaConsumerApplication" />
+      <item itemvalue="Spring Boot.TurbineApplication" />
+      <item itemvalue="Spring Boot.ConfigApplication" />
+      <item itemvalue="Spring Boot.ConfigClientApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EurekaConsumerApplication" />
-        <item itemvalue="Spring Boot.EurekaClientApplication" />
+        <item itemvalue="Spring Boot.ConfigClientApplication" />
+        <item itemvalue="Spring Boot.ConfigApplication" />
+        <item itemvalue="HTTP Request.rest-api_4#1" />
+        <item itemvalue="HTTP Request.rest-api_3#1" />
+        <item itemvalue="Spring Boot.TurbineApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -419,6 +1091,17 @@
       <workItem from="1579174134155" duration="1484000" />
       <workItem from="1579227410129" duration="1675000" />
       <workItem from="1579401957814" duration="1721000" />
+      <workItem from="1580376614154" duration="4258000" />
+      <workItem from="1581430573550" duration="1670000" />
+      <workItem from="1581475915502" duration="7157000" />
+      <workItem from="1581562043060" duration="6997000" />
+      <workItem from="1581577244675" duration="28431000" />
+      <workItem from="1581904711837" duration="9775000" />
+      <workItem from="1582077972020" duration="8685000" />
+      <workItem from="1582250194648" duration="1223000" />
+      <workItem from="1582472244200" duration="43000" />
+      <workItem from="1582534293316" duration="3757000" />
+      <workItem from="1582681404787" duration="503000" />
     </task>
     <task id="LOCAL-00001" summary="springcloud学习&#10;技术文档参考">
       <created>1579422527310</created>
@@ -427,43 +1110,68 @@
       <option name="project" value="LOCAL" />
       <updated>1579422527310</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改文件">
+      <created>1580385538324</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580385538324</updated>
+    </task>
+    <task id="LOCAL-00003" summary="添加pom文件中eureka注释">
+      <created>1581430824817</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581430824817</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16245000" />
+    <option name="totallyTimeSpent" value="88744000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23240939" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.54112554" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32900432" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="14" visible="true" weight="0.3726977" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.50595886" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21268657" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Structure" order="7" weight="0.21043578" />
+      <window_info anchor="bottom" id="REST Client" order="0" weight="0.4815618" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.45661604" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.62441313" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.22451194" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.34164858" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.3275488" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.17105263" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.14552239" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
@@ -491,8 +1199,8 @@
               <option name="COLUMN_ORDER">
                 <list>
                   <option value="0" />
-                  <option value="1" />
                   <option value="2" />
+                  <option value="1" />
                   <option value="3" />
                 </list>
               </option>
@@ -501,265 +1209,534 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="springcloud学习&#10;技术文档参考" />
-    <option name="LAST_COMMIT_MESSAGE" value="springcloud学习&#10;技术文档参考" />
+    <MESSAGE value="修改文件" />
+    <MESSAGE value="添加pom文件中eureka注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加pom文件中eureka注释" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.1.RELEASE/spring-cloud-commons-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClientImportSelector.java</url>
-          <line>43</line>
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.1.RELEASE/spring-cloud-openfeign-core-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClientsRegistrar.java</url>
+          <line>143</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.1.RELEASE/spring-cloud-openfeign-core-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClientFactoryBean.java</url>
+          <line>246</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.1.RELEASE/spring-cloud-openfeign-core-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClientsRegistrar.java</url>
+          <line>142</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.1.RELEASE/spring-cloud-openfeign-core-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClientFactoryBean.java</url>
+          <line>256</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.1.RELEASE/spring-cloud-openfeign-core-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClientFactoryBean.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.1.RELEASE/spring-cloud-openfeign-core-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClientFactoryBean.java</url>
+          <line>266</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.1.RELEASE/spring-cloud-openfeign-core-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClientFactoryBean.java</url>
+          <line>236</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.1.0/feign-core-10.1.0-sources.jar!/feign/Feign.java</url>
+          <line>260</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.1.0/feign-core-10.1.0-sources.jar!/feign/ReflectiveFeign.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.1.RELEASE/spring-cloud-openfeign-core-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignContext.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.1.0/feign-core-10.1.0-sources.jar!/feign/Contract.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18-sources.jar!/com/netflix/hystrix/contrib/javanica/aop/aspectj/HystrixCommandAspect.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="target.type()" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>importingClassMetadata.getClassName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eureka/euraka-server/src/test/java/com/springcloud/eureka/eurakaserver/EurakaServerApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/eureka/euraka-server/src/main/java/com/springcloud/eureka/eurakaserver/EurakaServerApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="120">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hystrix/hystrix-fallback/src/main/java/com/springcloud/hystrix/HystrixService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="23" />
           <folding>
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/eureka-client/pom.xml">
+    <entry file="file://$PROJECT_DIR$/hystrix/hystrix-client/src/main/java/com/springcloud/hystrix/FallbackHystrixController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        <state relative-caret-position="340">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/euraka-server/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar!/org/slf4j/Logger.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        <state relative-caret-position="40">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/hystrix/hystrix-fallback/src/main/java/com/springcloud/hystrix/HystrixApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        <state relative-caret-position="240">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.1.RELEASE/spring-cloud-commons-2.1.1.RELEASE.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.1.RELEASE/spring-cloud-commons-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/client/circuitbreaker/EnableCircuitBreaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        <state relative-caret-position="300">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hystrix/hystrix-client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" selection-start-line="2" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.1.RELEASE/spring-cloud-commons-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/client/circuitbreaker/EnableCircuitBreakerImportSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="33" column="67" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.1.RELEASE/spring-cloud-commons-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/commons/util/SpringFactoryImportSelector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="100" column="41" selection-start-line="100" selection-start-column="23" selection-end-line="100" selection-end-column="41" />
-          <folding>
-            <element signature="e#3559#3560#0" expanded="true" />
-            <element signature="e#3593#3594#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1520">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.7.RELEASE/spring-core-5.1.7.RELEASE-sources.jar!/org/springframework/core/type/StandardClassMetadata.java">
+    <entry file="file://$PROJECT_DIR$/hystrix/hystrix-fallback/src/main/java/com/springcloud/hystrix/Fallback.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="50" column="38" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="38" />
-          <folding>
-            <element signature="e#1522#1523#0" expanded="true" />
-            <element signature="e#1558#1559#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.7.RELEASE/spring-core-5.1.7.RELEASE-sources.jar!/org/springframework/core/annotation/AnnotatedElementUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="360" column="49" selection-start-line="360" selection-start-column="49" selection-end-line="360" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.7.RELEASE/spring-core-5.1.7.RELEASE-sources.jar!/org/springframework/core/type/StandardAnnotationMetadata.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.1.RELEASE/spring-cloud-commons-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        <state relative-caret-position="340">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE-sources.jar!/org/springframework/context/annotation/DeferredImportSelector.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18-sources.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="140" selection-start-line="140" selection-end-line="140" />
-          <folding>
-            <element signature="e#5436#5437#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="874" selection-start-line="874" selection-end-line="874" />
-          <folding>
-            <element signature="e#33024#33025#0" expanded="true" />
-            <element signature="e#33063#33064#0" expanded="true" />
-            <element signature="e#33118#33119#0" expanded="true" />
-            <element signature="e#33153#33154#0" expanded="true" />
-            <element signature="e#34393#34394#0" expanded="true" />
-            <element signature="e#34421#34422#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.7.RELEASE/spring-core-5.1.7.RELEASE-sources.jar!/org/springframework/util/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
-          <folding>
-            <element signature="e#7614#7615#0" expanded="true" />
-            <element signature="e#7657#7658#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="209">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.1.RELEASE/spring-cloud-commons-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClientImportSelector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="51" column="106" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="106" />
+        <state relative-caret-position="340">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.1.RELEASE/spring-cloud-openfeign-core-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClientsRegistrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#4417#4418#0" expanded="true" />
+            <element signature="e#4460#4461#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.1.RELEASE/spring-cloud-commons-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/client/serviceregistry/AutoServiceRegistrationConfiguration.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.1.RELEASE/spring-cloud-openfeign-core-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/eureka-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.1.RELEASE/spring-cloud-commons-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/client/serviceregistry/AutoServiceRegistrationProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/eureka-consumer/src/main/java/com/springcloud/eureka/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="320">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/euraka-server/src/main/resources/application.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.1.RELEASE/spring-cloud-openfeign-core-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClientFactoryBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        <state relative-caret-position="191">
+          <caret line="236" selection-start-line="236" selection-end-line="236" />
+          <folding>
+            <element signature="e#6794#6795#0" expanded="true" />
+            <element signature="e#6849#6850#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/eureka-client/src/main/java/com/springlcoud/demo/EurekaClientController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.1.0/feign-core-10.1.0-sources.jar!/feign/Feign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="260" selection-start-line="260" selection-end-line="260" />
+          <folding>
+            <element signature="e#8710#8711#0" expanded="true" />
+            <element signature="e#8758#8759#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.1.0/feign-core-10.1.0-sources.jar!/feign/Contract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.1.0/feign-core-10.1.0-sources.jar!/feign/ReflectiveFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="64" column="7" lean-forward="true" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+          <folding>
+            <element signature="e#1978#2001#0" expanded="true" />
+            <element signature="e#2074#2096#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18-sources.jar!/com/netflix/hystrix/contrib/javanica/aop/aspectj/HystrixCommandAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.7.RELEASE/spring-aop-5.1.7.RELEASE-sources.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="632" selection-start-line="632" selection-end-line="632" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/eureka-client/src/main/java/com/springlcoud/demo/EurekaClientApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.7.RELEASE/spring-aop-5.1.7.RELEASE-sources.jar!/org/springframework/aop/aspectj/AspectJAroundAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="20">
+          <caret line="40" column="105" selection-start-line="40" selection-start-column="104" selection-end-line="40" selection-end-column="105" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/eureka-consumer/src/main/java/com/springcloud/eureka/EurekaConsumerApplication.java">
+    <entry file="file://$PROJECT_DIR$/hystrix/hystrix-fallback/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="36" column="21" selection-start-line="15" selection-start-column="9" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator-autoconfigure/2.1.5.RELEASE/spring-boot-actuator-autoconfigure-2.1.5.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turbine/hystrix-turbine/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turbine/hystrix-dashboard/src/main/java/com/springcloud/dashboard/DashboardApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/eureka-client/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/turbine/hystrix-turbine/src/main/java/com/springcloud/turbine/TurbineApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        <state relative-caret-position="320">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/eureka-consumer/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/turbine/hystrix-turbine/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="17" />
+        <state relative-caret-position="320">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="36" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/eureka-consumer/src/main/java/com/springcloud/eureka/EurekaConsumerController.java">
+    <entry file="file://$PROJECT_DIR$/turbine/hystrix-dashboard/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="31" column="80" lean-forward="true" selection-start-line="31" selection-start-column="80" selection-end-line="31" selection-end-column="80" />
+        <state relative-caret-position="160">
+          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turbine/hystrix-dashboard/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hystrix/hystrix-fallback/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" selection-start-line="13" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api_3.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26-sources.jar!/org/slf4j/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2193">
+          <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api_4.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config-client/src/main/java/com/springcloud/config/ConfigClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config-client/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE.jar!/org/springframework/cloud/config/server/config/ConfigServerMvcConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/config/server/config/ConfigServerMvcConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config-client/src/main/java/com/springcloud/config/ConfigClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/EnvironmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="16" column="59" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config-server/src/main/java/com/springcloud/config/ConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/config/server/EnableConfigServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/config/server/config/ConfigServerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/config/server/config/ConfigServerProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/config/server/config/ConfigServerAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/config/server/config/EnvironmentRepositoryConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="105" column="61" selection-start-line="105" selection-start-column="55" selection-end-line="105" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -813,12 +1790,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>eureka-client</last-edited>
+          <last-edited>config-client</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.6657102" />
               </list>
             </option>
           </splitter-proportions>

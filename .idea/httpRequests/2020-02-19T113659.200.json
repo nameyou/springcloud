@@ -1,0 +1,19 @@
+{
+  "name": "config-order",
+  "profiles": [
+    "dev"
+  ],
+  "label": null,
+  "version": "a206536b7e0eea88470e5fd0cdf9b7c13fee4970",
+  "state": null,
+  "propertySources": [
+    {
+      "name": "https://github.com/nameyou/spriingconfig-11.git/config-order-dev.yml",
+      "source": {
+        "info.profile": "dev",
+        "name": "order",
+        "word": "order config  dev"
+      }
+    }
+  ]
+}

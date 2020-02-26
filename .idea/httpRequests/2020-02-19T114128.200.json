@@ -1,0 +1,10 @@
+{
+  "name": "congfig-consumer",
+  "profiles": [
+    "dev"
+  ],
+  "label": null,
+  "version": "a206536b7e0eea88470e5fd0cdf9b7c13fee4970",
+  "state": null,
+  "propertySources": []
+}

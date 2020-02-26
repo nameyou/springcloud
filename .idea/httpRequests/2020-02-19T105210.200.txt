@@ -1,0 +1,3 @@
+info.profile: prod
+name: Paul
+word: good config  pord

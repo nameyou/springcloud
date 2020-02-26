@@ -1,0 +1,386 @@
+GET http://localhost:8000/config-consumer/dev
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T114454.200.json
+
+###
+
+GET http://localhost:8000/config-confumer/dev
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T114445.200.json
+
+###
+
+GET http://localhost:8000/config-order/dev
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T114434.200.json
+
+###
+
+GET http://localhost:8001/mywords
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T114420.200.txt
+
+###
+
+GET http://localhost:8001/name
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T114401.200.txt
+
+###
+
+GET http://localhost:8000/congfig-consumer-dev.yml
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T114343.200.txt
+
+###
+
+GET http://localhost:8000/congfig-consumer-dev.yml
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T114211.200.txt
+
+###
+
+GET http://localhost:8000/congfig-consumer/dev
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T114128.200.json
+
+###
+
+GET http://localhost:8000/congfig-consumer/dev
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T114008.200.json
+
+###
+
+GET http://localhost:8000/congfig-order/dev
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T113918.200.json
+
+###
+
+GET http://localhost:8001/mywords
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T113843.200.txt
+
+###
+
+GET http://localhost:8001/name
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T113739.200.txt
+
+###
+
+GET http://localhost:8000/config-order/dev
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T113659.200.json
+
+###
+
+GET http://localhost:8000/config-consumer/dev
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T113514.200.json
+
+###
+
+GET http://localhost:8000/config/consumer/dev
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T113449.404.json
+
+###
+
+GET http://localhost:8001/config/consumer/dev
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T113436.404.json
+
+###
+
+GET http://localhost:8001/mywords
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T112930-2.200.txt
+
+###
+
+GET http://localhost:8001/mywords
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T112930-1.200.txt
+
+###
+
+GET http://localhost:8001/mywords
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T112930.200.txt
+
+###
+
+GET http://localhost:8001/mywords
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T112929.200.txt
+
+###
+
+GET http://localhost:8001/mywords
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T112928.200.txt
+
+###
+
+GET http://localhost:8001/mywords
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T112912.200.txt
+
+###
+
+GET http://localhost:8001/name
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T112834.200.txt
+
+###
+
+GET http://localhost:8001/mywords
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T112830-1.200.txt
+
+###
+
+GET http://localhost:8001/mywords
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T112830.200.txt
+
+###
+
+GET http://localhost:8001/mywords
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T112829.200.txt
+
+###
+
+GET http://localhost:8001/mywords
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T112753.200.txt
+
+###
+
+GET http://localhost:8001/name
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T112723.200.txt
+
+###
+
+GET http://localhost:8000/master/config-consumer-prod.properties
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T105210.200.txt
+
+###
+
+GET http://localhost:8000/master/config-consumer-prod.json
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T105201.200.json
+
+###
+
+GET http://localhost:8000/master/config-consumer-prod.yml
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T105134.200.txt
+
+###
+
+GET http://localhost:8000/config-consumer-prod.yml
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T105110.200.txt
+
+###
+
+GET http://localhost:8000/config-consumer-prod.yml
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T105037.200.txt
+
+###
+
+GET http://localhost:8000/config-consumer-dev.yml
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T105025.200.txt
+
+###
+
+GET http://localhost:8000/config-consumer-dev.uml
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T105019.404.json
+
+###
+
+GET http://localhost:8000/config-consumer/dev/masters
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T104954.404.json
+
+###
+
+GET http://localhost:8000/config-consumer/dev/master
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T104951.200.json
+
+###
+
+GET http://localhost:8000/config-consumer/dev
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T104932.200.json
+
+###
+
+GET http://localhost:8000/config-consumer/prod
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T104911.200.json
+
+###
+
+GET http://localhost:8000/config-consumer/dev
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T104823.200.json
+
+###
+
+GET http://localhost:8000/config-consumer/dev
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T104748.200.json
+
+###
+
+GET http://localhost:8000/config-consumer/dev
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T104711.200.json
+
+###
+
+GET http://localhost:8000/config/consumer/dev
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-19T104657.404.json
+
+###
+
+GET http://localhost:80000/config/consumer/dev
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:80000/config/consumer/dev
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:80000/config/consumer/dev
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:80000/config/consumer/dev
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:80000/config/consumer/dev
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:80000/config/consumer/dev
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:80000/config/consumer/dev
+Accept: */*
+Cache-Control: no-cache
+
+###
+

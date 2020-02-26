@@ -11,6 +11,14 @@
     <modules>
         <module>eureka/eureka-client</module>
         <module>eureka/eureka-consumer</module>
+        <module>feign/feign-consumer</module>
+        <module>hystrix/hystrix-client</module>
+        <module>hystrix/hystrix-fallback</module>
+        <module>ribbon/ribbon-consumer</module>
+        <module>turbine/hystrix-turbine</module>
+        <module>turbine/hystrix-dashboard</module>
+        <module>config/config-server</module>
+        <module>config/config-client</module>
     </modules>
 
     <dependencyManagement>

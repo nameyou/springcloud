@@ -6,9 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-client" />
+        <module name="hystrix-turbine" />
         <module name="eureka-consumer" />
+        <module name="eureka-client" />
+        <module name="hystrix-fallback" />
         <module name="euraka-server" />
+        <module name="hystrix-dashboard" />
+        <module name="hystrix-client" />
+        <module name="config-client" />
+        <module name="config-server" />
+        <module name="feign-consumer" />
+        <module name="ribbon-consumer" />
       </profile>
     </annotationProcessing>
   </component>
